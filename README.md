@@ -1,4 +1,4 @@
-# 👥 Employee Task Tracker
+# 🧑‍💼 Employee Task Tracker
 
 A full-stack web application for managing employees, assigning tasks,
 and monitoring task progress. The frontend is built with **React and
