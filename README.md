@@ -21,13 +21,15 @@ application data.
 
 ## 🧰 Technology Stack
 
-  Layer               Technology
-  ------------------- ------------------------------
-  Frontend            React, JavaScript, Vite, CSS
-  Backend             Python, FastAPI, Uvicorn
-  Database            PostgreSQL
-  Database access     SQLAlchemy, Psycopg
-  API documentation   FastAPI / Swagger UI
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+|---|---|
+| **Frontend** | React, JavaScript, Vite, CSS |
+| **Backend** | Python, FastAPI, Uvicorn |
+| **Database** | PostgreSQL |
+| **Database Access** | SQLAlchemy, Psycopg |
+| **API Documentation** | Swagger UI (FastAPI) |
 
 ## 📁 Project Structure
 
