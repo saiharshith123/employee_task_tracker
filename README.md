@@ -1,4 +1,4 @@
-# 👥 Employee Task Tracker
+# 🧑‍💼 Employee Task Tracker
 
 A full-stack web application for managing employees, assigning tasks,
 and monitoring task progress. The frontend is built with **React and
@@ -21,13 +21,15 @@ application data.
 
 ## 🧰 Technology Stack
 
-  Layer               Technology
-  ------------------- ------------------------------
-  Frontend            React, JavaScript, Vite, CSS
-  Backend             Python, FastAPI, Uvicorn
-  Database            PostgreSQL
-  Database access     SQLAlchemy, Psycopg
-  API documentation   FastAPI / Swagger UI
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+|---|---|
+| **Frontend** | React, JavaScript, Vite, CSS |
+| **Backend** | Python, FastAPI, Uvicorn |
+| **Database** | PostgreSQL |
+| **Database Access** | SQLAlchemy, Psycopg |
+| **API Documentation** | Swagger UI (FastAPI) |
 
 ## 📁 Project Structure
 
