@@ -1,8 +1,8 @@
-# Employee Task Tracker
+#🧑‍💼 Employee Task Tracker
 
 A full-stack web application for managing employees, assigning tasks, and monitoring task progress. The frontend uses React and Vite, the backend uses FastAPI, and PostgreSQL stores application data.
 
-## Features
+##✨ Features
 
 - Add employees with name, email, and department.
 - View the employee directory and delete employees when allowed by task-assignment rules.
@@ -12,7 +12,7 @@ A full-stack web application for managing employees, assigning tasks, and monito
 - View dashboard totals for employees, tasks, completed tasks, and pending tasks.
 - Use FastAPI's interactive API documentation to inspect and test endpoints.
 
-## Technology Stack
+##🧰 Technology Stack
 
 | Layer | Technology |
 |---|---|
@@ -22,7 +22,7 @@ A full-stack web application for managing employees, assigning tasks, and monito
 | Database access | SQLAlchemy, Psycopg |
 | API documentation | FastAPI / Swagger UI |
 
-## Project Structure
+##📁 Project Structure
 
 ```text
 employee_task_tracker/
@@ -47,7 +47,7 @@ employee_task_tracker/
 
 *The exact filenames may vary slightly depending on your local version of the project.*
 
-## Prerequisites
+##⚙️ Prerequisites
 
 Install the following:
 
@@ -56,7 +56,7 @@ Install the following:
 - PostgreSQL
 - Visual Studio Code or another code editor
 
-## 1. Configure PostgreSQL
+##🗄️ 1. Configure PostgreSQL
 
 Start PostgreSQL and create a database and user. For example, in `psql` or pgAdmin, run the following SQL, adapting credentials to your environment:
 
@@ -96,7 +96,7 @@ DATABASE_URL=postgresql+psycopg://task_user:replace_with_a_strong_password@local
 
 Do not commit your real `.env` file or database password to GitHub.
 
-### Start FastAPI
+###🚀 Start FastAPI
 
 From the `backend` directory, run:
 
@@ -144,7 +144,7 @@ If your frontend uses an environment variable for the API URL, use the variable 
 5. Open the React frontend and add an employee.
 6. Confirm the employee appears in the directory and remains after refreshing the page.
 
-## API Endpoints
+##🔌 API Endpoints
 
 The frontend shown in this project requests the following routes:
 
@@ -176,7 +176,7 @@ The browser cannot connect to the backend at the configured address and port.
 
 If the browser reports a CORS policy error, configure FastAPI's `CORSMiddleware` to allow your frontend origin, such as `http://localhost:5173` and, if needed, `http://127.0.0.1:5173`. Add the middleware only once and restart the backend.
 
-### PostgreSQL connection errors
+###🗄️ PostgreSQL connection errors
 
 - Confirm the PostgreSQL service is running.
 - Verify the database name, username, password, host, and port in `backend/.env`.
@@ -187,7 +187,7 @@ If the browser reports a CORS policy error, configure FastAPI's `CORSMiddleware`
 
 The dashboard depends on API responses. Open browser Developer Tools with **F12**, inspect the **Network** and **Console** tabs, and check the failed request. Also inspect the FastAPI terminal for related errors.
 
-### Vite or npm errors
+###🛠️ Vite or npm errors
 
 From the `frontend` directory, run:
 
@@ -198,14 +198,14 @@ npm run dev
 
 If Vite reports an invalid configuration, check `vite.config.js` and confirm it exports a valid configuration object.
 
-## Security Notes
+##📋 Security Notes
 
 - Store database credentials in a local `.env` file.
 - Use a strong PostgreSQL password.
 - Do not commit secrets, virtual environments, or `node_modules` to Git.
 - Before deployment, configure production CORS origins, environment variables, HTTPS, and appropriate authentication and authorization.
 
-## Future Improvements
+##🌱  Future Improvements
 
 - User login and role-based access control
 - Task comments and activity history
@@ -214,6 +214,6 @@ If Vite reports an invalid configuration, check `vite.config.js` and confirm it 
 - Automated backend and frontend tests
 - Production deployment
 
-## License
+##📄 License
 
-Add a license before distributing or reusing this project publicly.
+This project is created for educational and portfolio purposes.
